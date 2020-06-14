@@ -6,22 +6,51 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://armlib.github.io/"/>
-  <updated>2020-06-13T07:03:02.043Z</updated>
+  <updated>2020-06-14T13:36:51.862Z</updated>
   <id>http://armlib.github.io/</id>
   
   <author>
-    <name>armed</name>
+    <name>Armed</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Git干货学习篇-创建修改git本地端用户信息</title>
+    <link href="http://armlib.github.io/posts/1602138242/"/>
+    <id>http://armlib.github.io/posts/1602138242/</id>
+    <published>2020-06-14T11:25:00.000Z</published>
+    <updated>2020-06-14T13:36:51.862Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;创建和修改git用户名-邮箱-密码及如何保持密码&quot;&gt;&lt;a href=&quot;#创建和修改git用户名-邮箱-密码及如何保持密码&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Git干货学习篇" scheme="http://armlib.github.io/categories/Git%E5%B9%B2%E8%B4%A7%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
+    
+    
+      <category term="创建户名邮箱" scheme="http://armlib.github.io/tags/%E5%88%9B%E5%BB%BA%E6%88%B7%E5%90%8D%E9%82%AE%E7%AE%B1/"/>
+    
+      <category term="修改用户信息" scheme="http://armlib.github.io/tags/%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>第一篇 测试文章</title>
     <link href="http://armlib.github.io/posts/3335649678/"/>
     <id>http://armlib.github.io/posts/3335649678/</id>
     <published>2020-06-09T14:09:09.000Z</published>
-    <updated>2020-06-13T07:03:02.043Z</updated>
+    <updated>2020-06-14T13:59:55.494Z</updated>
     
     <summary type="html">
     
@@ -37,10 +66,14 @@
     </summary>
     
     
+      <category term="测试分类-1" scheme="http://armlib.github.io/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB-1/"/>
     
-      <category term="同级并列标签 您好-1" scheme="http://armlib.github.io/tags/%E5%90%8C%E7%BA%A7%E5%B9%B6%E5%88%97%E6%A0%87%E7%AD%BE-%E6%82%A8%E5%A5%BD-1/"/>
+      <category term="测试分类-2" scheme="http://armlib.github.io/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB-1/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB-2/"/>
     
-      <category term="同级并列标签 您好-2" scheme="http://armlib.github.io/tags/%E5%90%8C%E7%BA%A7%E5%B9%B6%E5%88%97%E6%A0%87%E7%AD%BE-%E6%82%A8%E5%A5%BD-2/"/>
+    
+      <category term="测试标签-1" scheme="http://armlib.github.io/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE-1/"/>
+    
+      <category term="测试标签-2" scheme="http://armlib.github.io/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE-2/"/>
     
   </entry>
   

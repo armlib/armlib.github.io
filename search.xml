@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Git干货学习篇-创建修改git本地端用户信息</title>
+      <link href="/posts/1602138242/"/>
+      <url>/posts/1602138242/</url>
+      
+        <content type="html"><![CDATA[<h2 id="创建和修改git用户名-邮箱-密码及如何保持密码"><a href="#创建和修改git用户名-邮箱-密码及如何保持密码" class="headerlink" title="创建和修改git用户名/邮箱/密码及如何保持密码"></a>创建和修改git用户名/邮箱/密码及如何保持密码</h2><p>用户名和邮箱地址是本地git客户端的信息，不随git库不同而改变，Git的每一次提交都会使用该信息，并且写入到每一次提交信息中。</p><h3 id="以Windows环境下为例："><a href="#以Windows环境下为例：" class="headerlink" title="以Windows环境下为例："></a>以Windows环境下为例：</h3><ul><li><p>打开Git Bash命令窗口：<br>库文件夹内 - 右键 - 选择Git Bash Here</p></li><li><p>查看用户名、邮箱地址和密码命令：</p><pre class=" language-git命令"><code class="language-git命令">$ git config user.name$ git config user.email$ git config user.password</code></pre></li><li><p>创建和修改用户名、邮箱地址和密码的命令：</p><pre><code>$ git config --global user.name “username”$ git config --global user.email “email”$ git config --global user.password “password”</code></pre></li><li><p>本地每次commit都需要用户名和邮箱纪录，提示我们输入密码，所以在修改完密码以后，输入以下命令，以后只要再输入一次用户名和密码即可。</p><pre><code>$ git config --global credential.helper store</code></pre></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git干货学习篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 创建户名邮箱 </tag>
+            
+            <tag> 修改用户信息 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇 测试文章</title>
       <link href="/posts/3335649678/"/>
       <url>/posts/3335649678/</url>
@@ -11,12 +38,20 @@
         <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>代码测试：</p><pre class=" language-py"><code class="language-py">print("Hello,这是代码测试")</code></pre><p>图片测试：</p><p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1591722682124&amp;di=f354cfd155f709ab98764e52de2e8de0&amp;imgtype=0&amp;src=http%3A%2F%2Fimg1.template.cache.wps.cn%2Fwps%2Fcdnwps%2Fupload%2Fofficial%2Ftemplate%2F2013-1-22%2F50fe40e0cce05.png" alt=""></p><p>引用测试：</p><blockquote><p><a href="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1591722682124&amp;di=f354cfd155f709ab98764e52de2e8de0&amp;imgtype=0&amp;src=http%3A%2F%2Fimg1.template.cache.wps.cn%2Fwps%2Fcdnwps%2Fupload%2Fofficial%2Ftemplate%2F2013-1-22%2F50fe40e0cce05.png" target="_blank" rel="noopener">这是一个引用</a></p></blockquote><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>无序列表测试：</p><ul><li>列表1</li><li>列表2</li><li>列表3</li></ul><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
+      <categories>
+          
+          <category> 测试分类-1 </category>
+          
+          <category> 测试分类-2 </category>
+          
+      </categories>
+      
       
         <tags>
             
-            <tag> 同级并列标签 您好-1 </tag>
+            <tag> 测试标签-1 </tag>
             
-            <tag> 同级并列标签 您好-2 </tag>
+            <tag> 测试标签-2 </tag>
             
         </tags>
       
