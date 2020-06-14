@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>灵魔剑芯</title>
   
-  <subtitle>开源嵌入式软硬件实验室</subtitle>
+  <subtitle>嵌入式软硬件开源实验室</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://armlib.github.io/"/>
